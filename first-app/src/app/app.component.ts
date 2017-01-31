@@ -5,7 +5,8 @@ import { Component } from '@angular/core';
   template: `
     <h1>Inline Template</h1>
     <fa-other></fa-other>
-    <mn-third></mn-third>
+    <fa-third></fa-third>
+    <fa-another></fa-another>
   `,
   styleUrls: ['./app.component.css']
 })

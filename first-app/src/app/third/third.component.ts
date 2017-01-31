@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'mn-third',
+  selector: 'fa-third',
   templateUrl: './third.component.html',
   styleUrls: ['./third.component.css']
 })
