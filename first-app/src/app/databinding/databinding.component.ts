@@ -9,6 +9,11 @@ export class DatabindingComponent {
   stringInterpolation = 'This is stringinterpolation!';
   numberInterpolation = 2;
 
+  delete = false;
+  test = 'Starting Value';
+
+  boundValue = 1000;
+
   onTest(){
     return true;
   }

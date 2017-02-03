@@ -12,3 +12,16 @@
 <hr>
 <h1>Event Binding</h1>
 <fa-event-binding (clicked)= "OnClicked($event)"></fa-event-binding>
+<hr>
+<br><br>
+<fa-two-way-binding></fa-two-way-binding>
+<br><br><br>
+<hr>
+<h1>Root Component</h1>
+<fa-lifecycle *ngIf="!delete" [bindable]= "boundValue">
+  <p #boundContent>{{test}}</p>
+</fa-lifecycle>
+<button (click)= "delete= true">Click to Delete</button>
+<button (click)= "test= 'Change Value'">Click to Change Content</button>
+<button (click)= "boundValue= 2000  ">Click to Change Binding</button>
+
